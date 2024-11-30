@@ -1,9 +1,10 @@
 {
   "name": "night-coffee-theme",
   "displayName": "Night Coffee",
-  "description": "A soothing and visually appealing theme for Visual Studio Code.",
+  "description": "A soothing dark theme inspired by the calmness of a night with a cup of coffee.",
   "version": "1.0.3",
   "publisher": "axthauvin",
+   "icon": "images/logo.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/axthauvin/night-coffee-theme"
@@ -21,8 +22,7 @@
         "uiTheme": "vs-dark",
         "path": "./themes/Night Coffee Theme-color-theme.json"
       }
-    ],
-    "icon": "images/logo.png"
+    ]
   },
   "license": "MIT"
 }
