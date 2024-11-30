@@ -22,5 +22,6 @@
         "path": "./themes/Night Coffee Theme-color-theme.json"
       }
     ]
-  }
+  },
+  "license": "MIT"
 }
