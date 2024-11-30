@@ -1,11 +1,15 @@
 {
-  "name": "night-coffee",
+  "name": "night-coffee-theme",
   "displayName": "Night Coffee",
-  "description": "A thoughtfully crafted theme blending GitHub Dark's simplicity with Catppuccin's cozy tones, designed specifically for PHP developers and those seeking enhanced CSS readability. Night Coffee delivers a warm, modern aesthetic with precise color contrasts to boost productivity and bring code to life. Perfect for night owls and caffeine enthusiasts alike.",
-  "version": "0.0.1",
+  "description": "A soothing and visually appealing theme for Visual Studio Code.",
+  "version": "1.0.0",
   "publisher": "axthauvin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/axthauvin/night-coffee-theme"
+  },
   "engines": {
-    "vscode": "^1.95.0"
+    "vscode": "^1.50.0"
   },
   "categories": [
     "Themes"
@@ -13,9 +17,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Night Coffee",
+        "label": "Night Coffee Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/Night Coffee-color-theme.json"
+        "path": "./themes/Night Coffee Theme-color-theme.json"
       }
     ]
   }
