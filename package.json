@@ -17,11 +17,12 @@
   "contributes": {
     "themes": [
       {
-        "label": "Night Coffee Theme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Night Coffee Theme-color-theme.json"
+      "label": "Night Coffee Theme",
+      "uiTheme": "vs-dark",
+      "path": "./themes/Night Coffee Theme-color-theme.json"
       }
-    ]
+    ],
+    "icon": "images/logo.jpeg"
   },
   "license": "MIT"
 }
