@@ -21,11 +21,11 @@ Welcome to the Night Coffee Theme for Visual Studio Code! This theme is designed
 
 ## Screenshots
 
-![Night Coffee Theme Screenshot](https://github.com/Axthauvin/night-coffee-theme/blob/main/images/logo.jpeg?raw=true)
+![Night Coffee Theme Screenshot](https://github.com/Axthauvin/night-coffee-theme/blob/main/images/screen.png?raw=true)
 
 ## Feedback
 
-If you have any feedback or suggestions, please feel free to open an issue on the [GitHub repository](https://github.com/Axthauvin/night-coffee-theme/blob/main/images/screen.png?raw=true).
+If you have any feedback or suggestions, please feel free to open an issue on the [GitHub repository](https://github.com/Axthauvin/night-coffee-theme/).
 
 ## License
 
