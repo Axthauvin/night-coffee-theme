@@ -1,2 +1,30 @@
-# night-coffee-theme
-A thoughtfully crafted theme blending GitHub Dark's simplicity with Catppuccin's cozy tones, designed specifically for PHP developers and those seeking enhanced CSS readability. Night Coffee delivers a warm, modern aesthetic with precise color contrasts to boost productivity and bring code to life.
+# Night Coffee Theme
+
+Welcome to the Night Coffee Theme for Visual Studio Code! This theme is designed to provide a soothing and visually appealing coding experience, inspired by the calm and cozy ambiance of a night-time coffee shop.
+
+## Installation
+
+1. Open the Extensions view in Visual Studio Code by clicking on the Extensions icon in the Activity Bar on the side of the window or by pressing `Ctrl+Shift+X`.
+2. Search for "Night Coffee Theme".
+3. Click the "Install" button.
+4. Once installed, click the "Set Color Theme" button or go to the Command Palette (`Ctrl+Shift+P`) and select `Preferences: Color Theme`, then choose "Night Coffee Theme".
+
+## Features
+
+- **Dark Mode**: A dark color scheme that is easy on the eyes, perfect for late-night coding sessions.
+- **Warm Colors**: A palette of warm colors that create a cozy and inviting atmosphere.
+- **Syntax Highlighting**: Enhanced syntax highlighting for various programming languages to improve code readability.
+
+## Screenshots
+
+![Night Coffee Theme Screenshot](images/screen.png)
+
+## Feedback
+
+If you have any feedback or suggestions, please feel free to open an issue on the [GitHub repository](https://github.com/axthauvin/night-coffee-theme).
+
+## License
+
+This theme is licensed under the [MIT License](LICENSE).
+
+Enjoy your coding with the Night Coffee Theme!
