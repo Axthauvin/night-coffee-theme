@@ -1,5 +1,9 @@
 # Night Coffee Theme
 
+<p align="center">
+  <img src="images/logo.jpeg" alt="Night Coffee Theme Logo" width="200"/>
+</p>
+
 Welcome to the Night Coffee Theme for Visual Studio Code! This theme is designed to provide a soothing and visually appealing coding experience, inspired by the calm and cozy ambiance of a night-time coffee shop.
 
 ## Installation
