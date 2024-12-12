@@ -1,7 +1,7 @@
 {
-	"name": "Night Coffee",
-	"colors": {
-		"activityBar.activeBorder": "#f9826c",
+    "name": "Night Coffee",
+    "colors": {
+        "activityBar.activeBorder": "#f9826c",
         "activityBar.background": "#24292e",
         "activityBar.border": "#1b1f23",
         "activityBar.foreground": "#e1e4e8",
@@ -182,9 +182,9 @@
         "titleBar.inactiveBackground": "#1f2428",
         "titleBar.inactiveForeground": "#959da5",
         "tree.indentGuidesStroke": "#2f363d"
-	},
-	"tokenColors": [
-		{
+    },
+    "tokenColors": [
+        {
             "scope": [
                 "comment",
                 "punctuation.definition.comment",
@@ -656,6 +656,312 @@
             "settings": {
                 "foreground": "#B267E6"
             }
+        },
+        {
+            "scope": [
+                "keyword.other.DML.sql",
+                "keyword.other.DDL.sql",
+                "keyword.other.TCL.sql",
+                "keyword.other.DCL.sql"
+            ],
+            "settings": {
+                "foreground": "#FFAB70"
+            }
+        },
+        {
+            "scope": [
+                "constant.numeric.sql",
+                "constant.language.boolean.sql"
+            ],
+            "settings": {
+                "foreground": "#79B8FF"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.function.sql",
+                "support.function.sql"
+            ],
+            "settings": {
+                "foreground": "#B392F0"
+            }
+        },
+        {
+            "scope": [
+                "variable.parameter.sql"
+            ],
+            "settings": {
+                "foreground": "#E1E4E8"
+            }
+        },
+        {
+            "scope": [
+                "string.quoted.single.sql",
+                "string.quoted.double.sql"
+            ],
+            "settings": {
+                "foreground": "#9ECBFF"
+            }
+        },
+        {
+            "scope": [
+                "comment.line.double-dash.sql",
+                "comment.block.sql"
+            ],
+            "settings": {
+                "foreground": "#6A737D"
+            }
+        },
+        {
+            "scope": [
+                "keyword.control.flow.python",
+                "keyword.control.import.python",
+                "keyword.control.python"
+            ],
+            "settings": {
+                "foreground": "#F97583"
+            }
+        },
+        {
+            "scope": [
+                "variable.parameter.function.python",
+                "variable.parameter.python"
+            ],
+            "settings": {
+                "foreground": "#E1E4E8"
+            }
+        },
+        {
+            "scope": [
+                "string.quoted.single.python",
+                "string.quoted.double.python",
+                "string.quoted.triple.python"
+            ],
+            "settings": {
+                "foreground": "#9ECBFF"
+            }
+        },
+        {
+            "scope": [
+                "comment.line.number-sign.python",
+                "comment.block.documentation.python"
+            ],
+            "settings": {
+                "foreground": "#6A737D"
+            }
+        },
+        {
+            "scope": [
+                "keyword.control.java",
+                "keyword.other.java"
+            ],
+            "settings": {
+                "foreground": "#D7BAF9"
+            }
+        },
+        {
+            "scope": [
+                "variable.parameter.java"
+            ],
+            "settings": {
+                "foreground": "#E1E4E8"
+            }
+        },
+        {
+            "scope": [
+                "string.quoted.double.java",
+                "string.quoted.single.java"
+            ],
+            "settings": {
+                "foreground": "#9ECBFF"
+            }
+        },
+        {
+            "scope": [
+                "comment.line.double-slash.java",
+                "comment.block.documentation.java"
+            ],
+            "settings": {
+                "foreground": "#6A737D"
+            }
+        },
+        {
+            "scope": [
+                "keyword.control.shell",
+                "keyword.other.shell"
+            ],
+            "settings": {
+                "foreground": "#D7BAF9"
+            }
+        },
+        {
+            "scope": [
+                "variable.parameter.shell"
+            ],
+            "settings": {
+                "foreground": "#E1E4E8"
+            }
+        },
+        {
+            "scope": [
+                "string.quoted.double.shell",
+                "string.quoted.single.shell"
+            ],
+            "settings": {
+                "foreground": "#9ECBFF"
+            }
+        },
+        {
+            "scope": [
+                "comment.line.number-sign.shell"
+            ],
+            "settings": {
+                "foreground": "#6A737D"
+            }
+        },
+        {
+            "scope": [
+                "keyword.control.cs",
+                "keyword.other.cs"
+            ],
+            "settings": {
+                "foreground": "#D7BAF9"
+            }
+        },
+        {
+            "scope": [
+                "variable.parameter.cs"
+            ],
+            "settings": {
+                "foreground": "#E1E4E8"
+            }
+        },
+        {
+            "scope": [
+                "string.quoted.double.cs",
+                "string.quoted.single.cs"
+            ],
+            "settings": {
+                "foreground": "#9ECBFF"
+            }
+        },
+        {
+            "scope": [
+                "comment.line.double-slash.cs",
+                "comment.block.documentation.cs"
+            ],
+            "settings": {
+                "foreground": "#6A737D"
+            }
+        },
+        {
+            "scope": [
+                "keyword.control.go",
+                "keyword.other.go"
+            ],
+            "settings": {
+                "foreground": "#D7BAF9"
+            }
+        },
+        {
+            "scope": [
+                "variable.parameter.go"
+            ],
+            "settings": {
+                "foreground": "#E1E4E8"
+            }
+        },
+        {
+            "scope": [
+                "string.quoted.double.go",
+                "string.quoted.single.go"
+            ],
+            "settings": {
+                "foreground": "#9ECBFF"
+            }
+        },
+        {
+            "scope": [
+                "comment.line.double-slash.go",
+                "comment.block.documentation.go"
+            ],
+            "settings": {
+                "foreground": "#6A737D"
+            }
+        },
+        {
+            "scope": "source.erlang keyword.control",
+            "settings": {
+                "foreground": "#F97583", // Use the theme's keyword color
+                "fontStyle": "bold italic"
+            }
+        },
+        {
+            "scope": "source.erlang variable.other",
+            "settings": {
+                "foreground": "#E1E4E8", // Use the theme's variable color
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "source.erlang meta.function entity.name.function",
+            "settings": {
+                "foreground": "#B392F0", // Use the theme's function name color
+                "fontStyle": "bold italic"
+            }
+        },
+        {
+            "scope": "source.erlang entity.name.",
+            "settings": {
+                "foreground": "#B392F0", // Use the theme's entity name color
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "source.erlang keyword.operator",
+            "settings": {
+                "foreground": "#F97583", // Use the theme's keyword color
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "source.erlang constant.numeric.integer",
+            "settings": {
+                "foreground": "#79B8FF" // Use the theme's constant color
+            }
+        },
+        {
+            "scope": "source.erlang constant.other",
+            "settings": {
+                "foreground": "#79B8FF" // Use the theme's constant color
+            }
+        },
+        {
+            "scope": "source.erlang constant.other.symbol",
+            "settings": {
+                "foreground": "#79B8FF" // Use the theme's constant color
+            }
+        },
+        {
+            "scope": "source.erlang entity.name.function",
+            "settings": {
+                "foreground": "#B392F0", // Use the theme's function name color
+                "fontStyle": "bold italic"
+            }
+        },
+        {
+            "scope": "source.erlang constant.numeric.float",
+            "settings": {
+                "foreground": "#79B8FF" // Use the theme's constant color
+            }
+        },
+        {
+            "scope": [
+                "variable.parameter.args"
+            ],
+            "settings": {
+                "foreground": "#FFAB70"
+            }
         }
-	]
+    ]
 }
