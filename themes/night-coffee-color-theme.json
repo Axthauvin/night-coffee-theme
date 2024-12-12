@@ -63,8 +63,8 @@
         "editorGutter.addedBackground": "#28a745",
         "editorGutter.deletedBackground": "#ea4a5a",
         "editorGutter.modifiedBackground": "#2188ff",
-        "editorIndentGuide.activeBackground": "#444d56",
-        "editorIndentGuide.background": "#2f363d",
+        "editorIndentGuide.activeBackground1": "#444d56",
+        "editorIndentGuide.background1": "#2f363d",
         "editorLineNumber.activeForeground": "#e1e4e8",
         "editorLineNumber.foreground": "#444d56",
         "editorOverviewRuler.border": "#1b1f23",
@@ -318,7 +318,6 @@
             "scope": "carriage-return",
             "settings": {
                 "foreground": "#24292E",
-                "background": "#F97583",
                 "fontStyle": "italic underline"
             }
         },
@@ -445,7 +444,6 @@
             ],
             "settings": {
                 "foreground": "#FDAEB7",
-                "background": "#86181D"
             }
         },
         {
@@ -456,7 +454,6 @@
             ],
             "settings": {
                 "foreground": "#85E89D",
-                "background": "#144620"
             }
         },
         {
@@ -466,7 +463,6 @@
             ],
             "settings": {
                 "foreground": "#FFAB70",
-                "background": "#C24E00"
             }
         },
         {
@@ -476,7 +472,6 @@
             ],
             "settings": {
                 "foreground": "#2F363D",
-                "background": "#79B8FF"
             }
         },
         {
@@ -670,6 +665,26 @@
         },
         {
             "scope": [
+                "keyword.control.sql", // Includes control keywords like EXISTS, NOT
+                "keyword.other.sql.unique" // Specific for UNIQUE, if scoped separately
+            ],
+            "settings": {
+                "foreground": "#FF5733", // Your desired color (e.g., orange)
+                "fontStyle": "bold" // Makes the text bold
+            }
+        },
+        {
+            "scope": [
+                "source.sql",
+                "keyword.other.sql"
+
+            ],
+            "settings": {
+                "foreground": "#FFAB70"
+            }
+        },
+        {
+            "scope": [
                 "constant.numeric.sql",
                 "constant.language.boolean.sql"
             ],
@@ -688,19 +703,32 @@
         },
         {
             "scope": [
-                "variable.parameter.sql"
+                "keyword.other.sql.UNIQUE",
+                "keyword.other.sql.not",
+                "keyword.other.sql.exists",
+                "keyword.other.sql.default",
+                "keyword.other.sql.control"
             ],
             "settings": {
-                "foreground": "#E1E4E8"
+                "foreground": "#FFAB70",
+                "fontStyle": "bold"
             }
         },
         {
             "scope": [
-                "string.quoted.single.sql",
-                "string.quoted.double.sql"
+                "support.type.sql",
+                "support.type.property-name.sql"
             ],
             "settings": {
-                "foreground": "#9ECBFF"
+                "foreground": "#FFAB70"
+            }
+        },
+        {
+            "scope": [
+                "variable.parameter.sql"
+            ],
+            "settings": {
+                "foreground": "#E1E4E8"
             }
         },
         {
@@ -712,6 +740,7 @@
                 "foreground": "#6A737D"
             }
         },
+
         {
             "scope": [
                 "keyword.control.flow.python",
@@ -796,27 +825,53 @@
         },
         {
             "scope": [
-                "variable.parameter.shell"
-            ],
-            "settings": {
-                "foreground": "#E1E4E8"
-            }
-        },
-        {
-            "scope": [
-                "string.quoted.double.shell",
-                "string.quoted.single.shell"
-            ],
-            "settings": {
-                "foreground": "#9ECBFF"
-            }
-        },
-        {
-            "scope": [
                 "comment.line.number-sign.shell"
             ],
             "settings": {
                 "foreground": "#6A737D"
+            }
+        },
+        {
+            "scope": [
+            "keyword.control.loop.shell",
+            "keyword.control.conditional.shell"
+            ],
+            "settings": {
+            "foreground": "#FFAB70"
+            }
+        },
+        {
+            "scope": [
+            "variable.other.readwrite.shell",
+            "variable.other.special.shell"
+            ],
+            "settings": {
+            "foreground": "#79B8FF"
+            }
+        },
+        {
+            "scope": [
+            "variable.other.readwrite.local.shell"
+            ],
+            "settings": {
+            "foreground": "#85E89D"
+            }
+        },
+        {
+            "scope": [
+            "meta.embedded.expression"
+            ],
+                "settings": {
+                "foreground": "#FFAB70"
+            }
+        },
+        {
+            "scope": [
+                "keyword.operator.arithmetic",
+                "keyword.operator.logical"
+            ],
+            "settings": {
+                "foreground": "#FFAB70"
             }
         },
         {
@@ -893,28 +948,28 @@
             "scope": "source.erlang keyword.control",
             "settings": {
                 "foreground": "#F97583", // Use the theme's keyword color
-                "fontStyle": "bold italic"
+                //"fontStyle": "bold italic"
             }
         },
         {
             "scope": "source.erlang variable.other",
             "settings": {
                 "foreground": "#E1E4E8", // Use the theme's variable color
-                "fontStyle": "italic"
+                //"fontStyle": "italic"
             }
         },
         {
             "scope": "source.erlang meta.function entity.name.function",
             "settings": {
                 "foreground": "#B392F0", // Use the theme's function name color
-                "fontStyle": "bold italic"
+                //"fontStyle": "bold italic"
             }
         },
         {
             "scope": "source.erlang entity.name.",
             "settings": {
                 "foreground": "#B392F0", // Use the theme's entity name color
-                "fontStyle": "bold"
+                //"fontStyle": "bold"
             }
         },
         {
@@ -946,7 +1001,7 @@
             "scope": "source.erlang entity.name.function",
             "settings": {
                 "foreground": "#B392F0", // Use the theme's function name color
-                "fontStyle": "bold italic"
+                //"fontStyle": "bold italic"
             }
         },
         {
@@ -964,4 +1019,5 @@
             }
         }
     ]
+
 }
