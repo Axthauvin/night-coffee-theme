@@ -23,6 +23,19 @@ Welcome to the Night Coffee Theme for Visual Studio Code! This theme is designed
 
 ![Night Coffee Theme Screenshot](https://github.com/Axthauvin/night-coffee-theme/blob/main/images/screen.png?raw=true)
 
+## Build the VSIX (local development)
+
+> you will need to have node.js version 22, because it seems that the latest version of `vsce` requires it. If you have an older version of node.js, you can use `nvm` to manage multiple versions of node.js on your machine.
+
+If you want to build the extension locally as a `.vsix` file:
+
+1. Install Node.js if it is not already installed.
+2. From the project root, install the dependencies with `npm install`.
+3. Run `npm run build:vsix`.
+4. The generated `.vsix` file will be created in the project root.
+
+You can then install the package in VS Code with the Extensions view or the command palette by choosing `Install from VSIX...`.
+
 ## Feedback
 
 If you have any feedback or suggestions, please feel free to open an issue on the [GitHub repository](https://github.com/Axthauvin/night-coffee-theme/).

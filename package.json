@@ -9,6 +9,9 @@
     "type": "git",
     "url": "https://github.com/axthauvin/night-coffee-theme"
   },
+  "scripts": {
+    "build:vsix": "npx --yes @vscode/vsce package"
+  },
   "engines": {
     "vscode": "^1.50.0"
   },
